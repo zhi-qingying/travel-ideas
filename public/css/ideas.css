@@ -1,0 +1,20 @@
+/* 旅游想法列表卡片样式 */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.badge-info {
+    background-color: #17a2b8;
+    margin-right: 2px;
+}
+
+/* 搜索栏间距 */
+.form-inline .form-control {
+    width: auto;
+}
